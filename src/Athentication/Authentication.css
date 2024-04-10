@@ -1,0 +1,251 @@
+/* Login page start */
+
+.LoginPage{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.LoginBgOverlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(195deg, rgba(66, 66, 74, 0.6), rgba(25, 25, 25, 0.6));
+    z-index: 1;
+}
+
+.LoginForm{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 0px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.75rem;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0rem 0.25rem 0.375rem -0.0625rem, rgba(0, 0, 0, 0.06) 0rem 0.125rem 0.25rem -0.0625rem;
+    max-width: 400px;
+    width: 100%;
+    z-index: 2;
+}
+
+.LoginTop{
+    background: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
+    box-shadow: rgba(0, 0, 0, 0.14) 0rem 0.25rem 1.25rem 0rem, rgba(0, 187, 212, 0.4) 0rem 0.4375rem 0.625rem -0.3125rem;
+    border-radius: 0.5rem;
+    margin: -50px 0px 30px;
+    padding: 25px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.LoginHead{
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.LoginTopIcon{
+    margin-bottom: 10px;
+}
+
+.LoginTopIcon i{
+    margin: 0px 12px;
+    font-size: 15px;
+}
+
+.LoginBtm form{
+    padding: 15px 0px;
+}
+
+.LoginBtm input{
+    width: 100%;
+    display: block;
+    height: 40px;
+    border: none;
+    outline: 0;
+    border: 1px solid #c9c9c9;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.LoginBtm input::placeholder{
+    color: #5c5959;
+}
+
+.LoginBtm input[type='checkbox']{
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+}
+
+.LoginRem{
+    font-size: 15px;
+    margin-left: 5px;
+    color: #5c5959;
+}
+
+.LoginBtn{
+    width: 100%;
+    height: 36px;
+    background-color: rgb(26, 115, 232);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    box-shadow: rgba(26, 115, 232, 0.15) 0rem 0.1875rem 0.1875rem 0rem, rgba(26, 115, 232, 0.2) 0rem 0.1875rem 0.0625rem -0.125rem, rgba(26, 115, 232, 0.15) 0rem 0.0625rem 0.3125rem 0rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.btn-hover {
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+     height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+  -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btn-hover:hover {
+    background-position: 100% 0;
+  
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+.btn-hover.color-9 {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+.LoginLink{
+    text-align: center;
+    color: rgb(123, 128, 154);
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.LoginLink a{
+    color: rgb(26, 115, 232);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.LoginLink a:hover{
+    color: rgb(26, 115, 232);
+    text-decoration: none;
+}
+
+/* Login page end */
+
+/* Signup page start */
+
+.SignupPage{
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* Signup page end */
+
+/* Responsive */
+
+@media (max-width: 575px){
+
+    /* login page start */
+
+    .LoginForm{
+        max-width: 75%;
+    }
+
+    .LoginBtm form{
+        padding: 10px 0px;
+    }
+
+    .LoginTop{
+        padding: 20px 15px;
+        margin-bottom: 15px;
+    }
+
+    .LoginHead {
+        font-size: 22px;
+    }
+
+    .LoginBtm input::placeholder{
+        font-size: 14px;
+    }
+
+    .LoginBtm input{
+        font-size: 14px;
+    }
+
+    .LoginRem{
+        font-size: 14px;
+    }
+
+    .LoginBtm input[type='checkbox'] {
+        width: 12px;
+        height: 12px;
+    }
+
+    .LoginLink{
+        font-size: 14px;
+    }
+
+    .LoginLink a{
+        font-size: 14px;
+    }
+
+    /* login page end */
+}
+
+@media (max-width: 420px){
+
+    /* Login page start */
+
+    .LoginForm{
+        padding: 20px 15px;
+    }
+
+    .LoginHead {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .LoginTop {
+        padding: 10px 15px;
+    }
+
+    .LoginBtm input{
+        height: 35px;
+    }
+
+    .LoginLink{
+        margin-bottom: 5px;
+    }
+
+    .LoginTopIcon i {
+        margin: 0px 8px;
+        font-size: 13px;
+    }
+
+    /* Login page end */
+}

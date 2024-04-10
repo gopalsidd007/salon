@@ -1,0 +1,687 @@
+.bg-talent {
+    background-color: #cacaca;
+    width: 100%;
+    padding: 20px 0px;
+    box-shadow: 0px 0px 5px 0px #ccc;
+}
+
+.bg-talentmain {
+    padding-top: 113px;
+}
+
+.tlnttxtpp {
+    color: #000;
+    font-size: 23px;
+    line-height: 29px;
+    font-family: 'NotoSans';
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.jobmaindtxlflx {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.jobbrdrwhdt {
+    width: 100%;
+    max-width: 100%;
+}
+
+.jobdtksvbrdr {
+    width: 100%;
+    border: 2px solid #fac00d;
+    height: auto;
+    padding: 10px 10px 15px 10px;
+    border-radius: 10px;
+}
+
+.jobdtlsmainsection {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding: 20px 0px;
+}
+
+.mrtrdtys label {
+    margin: 0px;
+    padding: 0px;
+}
+
+.required {
+    color: #fac00d;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'montheavy';
+}
+
+.jibtxt {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'NoirProLight';
+    line-height: 17px;
+    color: #000;
+}
+
+.jobdtlsdiv {
+    width: 100%;
+    padding: 5px 0px;
+}
+
+.jobtxtinpt {
+    width: 100%;
+    padding: 0px;
+    border: 1px solid #0000004d;
+    border-radius: 5px;
+    margin: 8px 0px 0px 0px;
+    padding: 0px 15px;
+}
+
+.yxsbnflx {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2%;
+    padding: 3px 0px;
+}
+
+.ysnopst {
+    padding: 5px 0px 0px 0px;
+}
+
+.mrtrdtys input {
+    margin-right: 10px;
+}
+
+.hgmdlwflx {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8%;
+    padding: 8px 0px 5px 0px;
+}
+
+.gnjhbtn {
+    border: 1px solid #fac00d;
+    background-color: #fac00d;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 700;
+    font-family: Noirprolight;
+    color: #000;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.jobdtlswh {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+}
+.admtxt{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: montheavy;
+    line-height: 25px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.dtlskmflx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dtlstxtpphh {
+    color: #000;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'montheavy';
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.rsntxrp {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'NoirProLight';
+    line-height: 17px;
+    color: #000;
+}
+
+.rsjobtxtdiv {
+    width: 100%;
+    padding: 0px;
+    border: 1px solid #0000004d;
+    border-radius: 5px;
+    margin: 8px 0px 0px 0px;
+    padding: 0px 15px;
+}
+
+.senddivrxr {
+    width: 100%;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.txtinptflx {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.rsntxrpdiv {
+    width: 100%;
+    max-width: 20%;
+}
+.restpage{
+    height: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+    position: relative;
+    width: calc(100% - 310px);
+    padding-top: 100px;
+
+}
+.hiringslct{
+    width: 100%;
+    padding: 0px;
+    border: 1px solid #0000004d;
+    border-radius: 5px;
+    margin: 8px 0px 0px 0px;
+    padding: 0px 15px;
+}
+
+
+.rsntxrptxtdiv {
+    width: 100%;
+    max-width: 100%;
+}
+
+.addimg {
+    width: 25px;
+    height: 25px;
+
+}
+
+.addimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.addimginpt {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.interdivmain {
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.interdiv {
+    width: 100%;
+    max-width: 100%;
+    padding: 0px;
+    border: 1px solid #0000004d;
+    border-radius: 5px;
+    margin: 8px 0px 0px 0px;
+    padding: 0px 15px;
+    margin-left: 10px;
+}
+
+.hrdivtxtmain {
+    width: 100%;
+    max-width: 100%;
+}
+
+.hrdivtxt {
+    width: 100%;
+    max-width: 37%;
+    padding: 0px;
+    border: 1px solid #0000004d;
+    border-radius: 5px;
+    margin: 8px 0px 0px 0px;
+    padding: 0px 15px;
+}
+
+.positionwhnflx {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avgsldiv {
+    width: 100%;
+    max-width: 37%;
+}
+
+.avgdivmain {
+    width: 100%;
+    max-width: 86%;
+}
+
+.avgdiv {
+    width: 100%;
+    max-width: 100%;
+    padding: 0px;
+    border: 1px solid #0000004d;
+    border-radius: 5px;
+    margin: 8px 0px 0px 0px;
+    padding: 0px 15px;
+}
+
+.addldiv {
+    width: 100%;
+    max-width: 15%;
+    margin-left: 20px;
+}
+
+.clndrimg {
+    width: 25px;
+    height: 25px;
+}
+
+.clndrimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.caledricontxtflsx {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+}
+
+.avgdixflx {
+    width: 100%;
+    max-width: 55%;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.whendixflx {
+    width: 100%;
+    max-width: 45%;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.frmtodivflx {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.frmstrt {
+    width: 100%;
+    max-width: 40%;
+}
+
+.frmstrt select {
+    width: 100%;
+    max-width: 40%;
+    border: 1px solid #0000004d;
+    border-radius: 5px;
+    margin: 8px 0px 0px 0px;
+    padding: 4px 0px;
+}
+
+.frmstrt label {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'NoirProLight';
+    line-height: 17px;
+    color: #000;
+    margin-right: 10px;
+}
+
+.frmend label {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'NoirProLight';
+    line-height: 17px;
+    color: #000;
+    margin-right: 10px;
+}
+
+.frmend select {
+    width: 100%;
+    max-width: 40%;
+    border: 1px solid #0000004d;
+    border-radius: 5px;
+    margin: 8px 0px 0px 0px;
+    padding: 4px 0px;
+}
+
+.frmend {
+    width: 100%;
+    max-width: 40%;
+}
+
+.frmstrt option {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'NoirProLight';
+    line-height: 17px;
+    color: #000;
+}
+
+.frmend option {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'NoirProLight';
+    line-height: 17px;
+    color: #000;
+}
+
+.prvdlinkdiv {
+    width: 100%;
+    max-width: 20%;
+    margin-top: 9px;
+
+
+}
+
+.pstimg {
+    width: 25px;
+    height: 25px;
+}
+
+.pstimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.sbmtdiv {
+    width: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #fac00d;
+    margin-top: 9px;
+}
+
+.sbmtdivmain {
+    width: 100%;
+    max-width: 25%;
+    margin: auto;
+}
+
+.hrtxty {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'NoirProLight';
+    line-height: 17px;
+    color: #000;
+}
+
+.hrtxtp {
+    font-size: 22px;
+    line-height: 25px;
+    color: #000;
+    font-family: 'MANDAUFONT';
+    text-align: center;
+    font-weight: 500;
+    padding: 8px 0px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.hrtxtp::after {
+    position: absolute;
+    content: "";
+    width: 10%;
+    height: 13%;
+    background-color: #fac00d;
+    /* bottom: -8px; */
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    margin-top: 5px;
+}
+
+.jobslctdiv {
+    width: 100%;
+    padding: 0px;
+    border: 1px solid #0000004d;
+    border-radius: 5px;
+    margin: 8px 0px 0px 0px;
+    /* padding: 0px 15px; */
+}
+.txtarfdiv{
+    width: 100%;
+    padding: 2px 0px 1px 0px;
+}
+.txtarfdiv textarea{
+    width: 100%;
+    padding: 0px;
+    border: 1px solid #0000004d;
+    border-radius: 5px;
+    margin: 8px 0px 0px 0px;
+    padding: 0px 15px;
+    height: 70px;
+    resize: none;
+}
+.plnbtnact{
+    border: 1px solid #fac00d;
+    background-color: transparent;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 700;
+    font-family: Noirprolight;
+    color: #000;
+    padding: 3px 10px;
+    border-radius: 5px;
+    width: 130px;
+    cursor: pointer;
+}
+.btnscactb{
+    border: 1px solid #fac00d;
+    background-color: #fac00d;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 700;
+    font-family: Noirprolight;
+    color: #000;
+    padding: 3px 10px;
+    border-radius: 5px;  
+    width: 130px;
+    cursor: pointer;
+}
+.btnflxmain{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2%;
+}
+.whyjdiv{
+    width: 100%;
+    padding: 5px 0px;
+}
+.txtwhydiv{
+    width: 100%;
+    padding: 10px 0px;
+}
+.txtwhydiv textarea{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #0000004d;
+    border-radius: 5px;
+    margin: 8px 0px 0px 0px;
+    padding: 0px 15px;
+    resize: none;
+}
+.rfrlinpflx{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* gap: 1%; */
+}
+.opnttxt{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'NoirProLight';
+    line-height: 17px;
+    color: #000;
+    margin-right: 15px;
+}
+.dtlskmflx .custom-switch .custom-control-label::after {
+    top: calc(0.25rem + 2px);
+    left: calc(-2.25rem + 2px);
+    width: calc(1rem - 4px);
+    height: calc(1rem - 4px);
+    background-color: #fac00d;
+    border-radius: 0.5rem;
+    transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-transform .15s ease-in-out;
+    transition: transform .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: transform .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-transform .15s ease-in-out;
+}
+.dtlskmflx .custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #fac00d;
+    background-color: #fac00d;
+}
+.bg-grydiv{
+    background-color: #ccc;
+    border-radius: 5px;
+    padding: 5px ;
+}
+.frcttxy{
+    font-size: 15px;
+    line-height: 20px;
+    color: #000;
+    font-family: Noirprolight;
+    font-weight: 500;
+    padding: 0px 0px 5px 0px;
+}
+.jntxt{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'NoirProRegular';
+    line-height: 25px;
+    padding-bottom: 5px;
+}
+.jndivtxtwhy{
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+}
+
+.qualiaddi{
+    display: flex;
+    justify-content: space-between;
+}
+.minimdiv {
+    width: 100%;
+    max-width: 55%;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+.addnidiv {
+    width: 100%;
+    max-width: 45%;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.qulitxtar {
+    width: 100%;
+    max-width: 86%;
+}
+.qulitxtardiv {
+    width: 100%;
+    max-width: 100%;
+    padding: 0px;
+    border: 1px solid #0000004d;
+    border-radius: 5px;
+    margin: 8px 0px 0px 0px;
+    padding: 10px 15px;
+}
+.addqtmntxt {
+    width: 100%;
+    max-width: 38%;
+}
+.txtlixtli{
+    font-size: 15px;
+    line-height: 20px;
+    color: #000;
+    font-family: Noirprolight;
+    font-weight: 500;
+    padding: 5px 0px;
+    position: relative;
+    margin-left: 30px;
+}
+.txtlixtli::before{
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #000;
+    top: 12px;
+    left: -22px;
+}
+.txtillsltall{
+    margin: 0px;
+}
+.sndstpp{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'NoirProRegular';
+    line-height: 25px;
+    padding-bottom: 5px;
+    padding: 5px 0px;
+}
+.refershrflx{
+    display: flex;
+    justify-content: flex-start;
+    gap: 2%;
+}
+.btnmainflx{
+    width: 150px;
+    background-color: rgb(255, 190, 152);
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shrimg{
+    width: 25px;
+    height: 25px;
+}
+.shrimg img{
+    width: 100%;
+    height: 100%;
+}
+.rfshr{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Montheavy;
+    line-height: 20px;
+    color: #000;
+    margin-left: 10px;
+}
