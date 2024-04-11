@@ -41,12 +41,31 @@ const AddServiceProduct = () => {
         return false;
     }
 
-    const handleSubmit=(e)=>{
+    const handleSubmit=async(e)=>{
         e.preventDefault();
         
         if(validate()){
             return ;
         }
+
+
+        const details={
+            product_name:data.product_name,
+            quantity:data.quantity,
+            price:data.price,
+            image: data.img,   
+        }
+
+        console.log("jhjhjihoiu",details)
+        const res=await HttpClient.requestData("add-product","POST",details)
+        if (res && res.status) {
+            // setAddservice(res?.data)
+            toast.success("Service added successfully");
+        } else {
+            toast.error(res?.message || "Profile not Created ");
+        }
+
+
         toast.success("data updated")
     }
 

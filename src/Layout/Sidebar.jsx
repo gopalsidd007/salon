@@ -535,9 +535,38 @@ function Sidebar() {
               </div>
             </li>           
            
+{/* //---------------------------------------------->Add inventory<-------------------------------------------------------            */}
            
-           
-           
+<li className="menuline">
+              <div className="menu-head" id="sidemenuhead9">
+                <Link
+                  to="#"
+                  className="btn btn-header-link icon"
+                  data-toggle="collapse"
+                  data-target="#sidemenu9"
+                  aria-expanded="true"
+                  aria-controls="sidemenu9"
+                >
+                  <i className="fa-regular fa-address-card icon-1"></i>
+                  <span>Inventory</span>
+                </Link>
+              </div>
+              <div
+                id="sidemenu9"
+                className="collapse"
+                aria-labelledby="sidemenuhead9"
+                data-parent="#sidemenu"
+              >
+                <ul className="Submenu">
+                  <li>
+                    <Link to="/add-inventory" onClick={handlClick}>
+                      <i className="fa-solid fa-angles-right mr-2"></i>
+                      Add Inventory
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </li>          
            
            
            

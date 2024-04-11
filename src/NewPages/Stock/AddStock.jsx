@@ -31,6 +31,23 @@ const AddStock = () => {
     // if (validate()) {
     //   return;
     // }
+
+const details={
+  productId:data.productId,
+  quantity:data.quantity
+}
+
+console.log("ffweewt",details)
+    // const res=await HttpClient.requestData("add-stock","POST",details)
+    // if (res && res.status) {
+    //     // setAddservice(res?.data)
+    //     toast.success("Service added successfully");
+    // } else {
+    //     toast.error(res?.message || "Profile not Created ");
+    // }
+
+
+
   };
 
   return (

@@ -63,6 +63,27 @@ const handleSubmit = async (e) => {
     if (validate()) {
         return
     }
+
+
+    const details={
+        categoryId:data.categoryId,
+        subCategory:data.subCategory,
+        duration:data.duration,
+        price:data.price,
+        description:data.description
+    }
+
+    console.log("jhjhjihoiu",details)
+    // const res=await HttpClient.requestData("add-serviceSubCategory","POST",details)
+    // if (res && res.status) {
+    //     // setAddservice(res?.data)
+    //     toast.success("Service added successfully");
+    // } else {
+    //     toast.error(res?.message || "Profile not Created ");
+    // }
+
+
+
 }
 
     return (
@@ -93,10 +114,11 @@ const handleSubmit = async (e) => {
                                         value={data.categoryId}
                                     /> */}
 
-                                    <select value={data.categoryId}>
-                                        <option value={1}>1</option>
-                                        <option value={2}>2</option>
-                                        <option value={3}>3</option>
+                                    <select   name="categoryId"     onChange={handleChange} className="form-control">
+                                    <option value="">Select</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
                                     </select>
                                 </div>
                                 <div className="col-md-6 mt-3 ">

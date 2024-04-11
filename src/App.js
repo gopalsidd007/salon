@@ -64,6 +64,7 @@ import AddServiceEmployee from "./NewPages/ServiceEmployee/AddServiceEmployee";
 import AddAdminSubscription from "./NewPages/AdminSubscription/AddAdminSubscription";
 import AddStock from "./NewPages/Stock/AddStock";
 import AddStockHistory from "./NewPages/StockHistory/AddStockHistory";
+import AddInventory from "./NewPages/Inventory/AddInventory";
 
 const App = () => {
   return (
@@ -182,6 +183,7 @@ const App = () => {
               <Route path="/add-admin-subscription" element={<AddAdminSubscription/>} />
               <Route path="/stock" element={<AddStock/>} />
               <Route path="/stock-history" element={<AddStockHistory/>} />
+              <Route path="/add-inventory" element={<AddInventory/>} />
 
 
             </Route>

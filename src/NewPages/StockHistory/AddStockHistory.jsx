@@ -35,6 +35,24 @@ const AddStockHistory = () => {
         // if (validate()) {
         //   return;
         // }
+
+        const details={
+         
+        stockId:data.stockId,
+        usedQuantity:data.usedQuantity
+        }
+        
+        console.log("ffweewt",details)
+
+            // const res=await HttpClient.requestData("add-stockHistory","POST",details)
+            // if (res && res.status) {
+            //     // setAddservice(res?.data)
+            //     toast.success("Service added successfully");
+            // } else {
+            //     toast.error(res?.message || "Profile not Created ");
+            // }
+
+
       };
 
     
@@ -114,6 +132,8 @@ const AddStockHistory = () => {
                 )}
               </div>
             </form>
+
+            
           </section>
         </div>
       </div>

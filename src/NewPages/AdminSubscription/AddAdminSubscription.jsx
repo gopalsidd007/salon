@@ -26,6 +26,18 @@ const AddAdminSubscription = () => {
         if (validate()) {
           return;
         }
+
+        const details={
+          subscriptionId:data
+        }
+
+        const res=await HttpClient.requestData("add-product","POST",details)
+        if (res && res.status) {
+            // setAddservice(res?.data)
+            toast.success("Service added successfully");
+        } else {
+            toast.error(res?.message || "Profile not Created ");
+        }
       };
 
 

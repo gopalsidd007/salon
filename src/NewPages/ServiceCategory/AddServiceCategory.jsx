@@ -33,21 +33,18 @@ const customStyles = {
 const AddServiceCategory = () => {
     const [AllData, setAllData] = useState([]);
     const [isEdit, setIsEdit] = useState(false);
+    const [catLoadet, setCatLoader] = useState(false)
     const [checked, setChecked] = useState('')
     const [EditID, setEditID] = useState('')
     const [question, setQuestion] = useState("")
     const [questionAnswerData, setquestionAnswerData] = useState(['', '']);
 
-    // const [data, setdata] = useState({
-    //     Eventname: "",
-    //     HostedBy: "",
-    //     Date: "",
-    //     image: ""
-    // })
+//    const [addservice,setAddservice]=useState({})
 
     const [data,setData]=useState({
         category:"",
-        description:""
+        description:"",
+        img:""
     })
     
 
@@ -62,6 +59,10 @@ const AddServiceCategory = () => {
             toast.error("Description is required");
             return true
         }
+        // if (!data?.img) {
+        //     toast.error("Image is required");
+        //     return true
+        // }
 
         return false
     }
@@ -191,14 +192,28 @@ const AddServiceCategory = () => {
     //     console.log("subDAta", SubmitData)
     // }
 
-const handleSubmit=(e)=>{
+const handleSubmit=async(e)=>{
     e.preventDefault();
 
     if (validate()) {
         return 
     }
 
-    console.log("data",data)
+    const details={
+        category:data.category,
+        description:data.description,
+        image: "https://salonmanagement.s3.ap-south-1.amazonaws.com/salon/image/4f3c4740-f732-11ee-bac2-3988d64f2a56.jpg"
+    }
+
+    console.log("jhjhjihoiu",details)
+    const res=await HttpClient.requestData("add-serviceCategory","POST",details)
+    if (res && res.status) {
+        // setAddservice(res?.data)
+        toast.success("Service added successfully");
+    } else {
+        toast.error(res?.message || "Profile not Created ");
+    }
+
     
 }
 
@@ -304,9 +319,9 @@ const handleSubmit=(e)=>{
                                         accept='image/png,image/jpeg,image/jpg'
                                         className="form-control"
                                         placeholder=''
-                                        // onChange={(e) => handleChange(e, index)}
-                                        //  value={}
-                                        name="answer1"
+                                        onChange={handleOutput}
+                                         value={data.img}
+                                        name="img"
                                     />
                                 </div>
 

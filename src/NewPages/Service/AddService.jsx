@@ -11,7 +11,7 @@ const headLineStyle = {
 const AddService = () => {
     
   const initialData = {
-    serviceType: "",
+    serviceName: "",
     categoryId: "",
     subCategoryId: "",
     price: "",
@@ -45,7 +45,7 @@ const AddService = () => {
       toast.error("price is required");
       return true;
     }
-    if (!data?.serviceType) {
+    if (!data?.serviceName) {
       toast.error("serviceType is required");
       return true;
     }
@@ -67,6 +67,28 @@ const AddService = () => {
     if (validate()) {
       return;
     }
+
+    const details={
+      serviceName: data.serviceName,
+      categoryId: data.categoryId,
+      subCategoryId: data.subCategoryId,
+      price:data.price,
+      duration:data.price,
+      product: [
+          "661692b6b59b99a007d0300c"
+      ]
+    }
+    console.log("jhjhjihoiu",details)
+    // const res=await HttpClient.requestData("add-serviceCategory","POST",details)
+    // if (res && res.status) {
+    //     // setAddservice(res?.data)
+    //     toast.success("Service added successfully");
+    // } else {
+    //     toast.error(res?.message || "Profile not Created ");
+    // }
+
+
+
   };
 
   return (
@@ -143,14 +165,14 @@ const AddService = () => {
 
                 <div className="col-md-6 mt-3 ">
                   <label htmlFor="formGroupExampleInput">
-                    Service Type<span className="text-danger">&nbsp;*</span>
+                    Service Name<span className="text-danger">&nbsp;*</span>
                   </label>
                   <input
                     type="text"
                     className="form-control"
-                    placeholder="serviceType"
-                    name="serviceType"
-                    value={data.serviceType}
+                    placeholder="serviceName"
+                    name="serviceName"
+                    value={data.serviceName}
                     onChange={handleChange}
                   />
                 </div>

@@ -3,9 +3,25 @@ import { reactLocalStorage } from "reactjs-localstorage";
 
 // export const BASE_URL = "http://35.154.235.57:4040/api/v1/user/";
 // export const BASE_URL = "http://52.66.120.170:4049/api/v1/user/";
-export const BASE_URL = "http://3.111.197.199:5444/api/v1/admin/";
-export const IMAGE_URL = "http://3.111.197.199:5444/"
+// export const BASE_URL = "http://3.111.197.199:5444/api/v1/admin/";
+// export const IMAGE_URL = "http://3.111.197.199:5444/"
 // export const IMAGE_URL = "http://52.66.120.170:4049/"
+
+
+//------------------------------SALON------------------------------------------
+
+export const BASE_URL = "http://3.111.197.199:8001/api/v1/admin/";
+export const IMAGE_URL = "http://3.111.197.199:8001/"
+
+
+
+
+
+
+
+
+
+
 
 
 // async function requestData(url, method, params = null) {

@@ -9,6 +9,7 @@ const headLineStyle = {
 };
 
 const AddServiceEmployee = () => {
+
   const initialData = {
     serviceData: [
       "660ea44d99ed722106829331",
@@ -19,7 +20,7 @@ const AddServiceEmployee = () => {
     email: "",
     address: "",
     phone: "",
-    idProof: "",
+    
   };
 
   const [data, setData] = useState(initialData);
@@ -50,10 +51,7 @@ const validate=()=>{
     toast.error("ID  required")
     return true;
   }
-  if(!data.idProof){
-    toast.error("ID  required")
-    return true;
-  }
+ 
   if(!data.serviceData){
     toast.error("Service Data required")
     return true;
@@ -61,13 +59,33 @@ const validate=()=>{
   return false;
 }
 
-const handleSubmit=(e)=>{
+const handleSubmit=async(e)=>{
 
   e.preventDefault();
 
   if(validate()){
     return ;
   }
+
+  const details={
+    serviceData: [
+     
+      "66169b58f5abdc7bfc8ef189"
+  ],
+  name:data.ename,
+  email:data.email,
+  address:data.address,
+  phone:data.phone
+}
+
+console.log("jhjhjihoiu",details)
+// const res=await HttpClient.requestData("add-employee","POST",details)
+// if (res && res.status) {
+//     // setAddservice(res?.data)
+//     toast.success("Service added successfully");
+// } else {
+//     toast.error(res?.message || "Profile not Created ");
+// }
 
   console.log("employeedata",data)
 
@@ -142,19 +160,7 @@ const handleSubmit=(e)=>{
                   />
                 </div>
                 
-                <div className="col-md-6 mt-3 ">
-                  <label htmlFor="formGroupExampleInput">
-                  idProof<span className="text-danger">&nbsp;*</span>
-                  </label>
-                  <input
-                    type="text"
-                    className="form-control"
-                    placeholder=" idProof"
-                    name="idProof"
-                    value={data.idProof}
-                    onChange={handleChange}
-                  />
-                </div>
+               
 
                 <div className="col-md-6 mt-3 ">
                   <label htmlFor="formGroupExampleInput">
